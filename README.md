@@ -7,9 +7,9 @@ The following can be used as a reference
 https://dev.mysql.com/downloads/windows/installer/8.0.html
 2) The following commands can be executed in MySQL Workbench for the creation of the database, table and adding of data
 a) Create the database
-
+```ruby
 create database appdb;
-
+```
 b) Change to the context to the database
 ```ruby
 use appdb;
