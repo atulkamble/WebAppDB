@@ -29,3 +29,4 @@ g) See the data in the table
 ```ruby
 SELECT * FROM Course;
 ```
+
