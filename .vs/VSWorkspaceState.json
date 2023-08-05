@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\bin\\Debug",
+    "\\bin\\Debug\\net6.0",
+    "\\Models",
+    "\\obj",
+    "\\Pages",
+    "\\Pages\\Shared",
+    "\\Properties",
+    "\\Properties\\ServiceDependencies",
+    "\\sqlapp"
   ],
-  "SelectedNode": "\\sqlapp.sln",
+  "SelectedNode": "\\sqlapp\\sqlapp.sln",
   "PreviewInSolutionExplorer": false
 }
