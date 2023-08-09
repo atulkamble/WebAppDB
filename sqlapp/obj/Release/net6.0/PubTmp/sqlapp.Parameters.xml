@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="sqlapp20230805152442" tags="IisApp">
+  <parameter name="IIS Web Application Name" description="" value="sqlapp20230807100501" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Github\\WebAppDB\\sqlapp\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>
