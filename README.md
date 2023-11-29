@@ -7,6 +7,7 @@ The following can be used as a reference
 ```
 sudo apt update -y 
 sudo -i passwd
+sudo apt install mysql-server -y
 mysql -u root -p
 ```
 1) First go ahead and download the MySQL server community edition on the server.
