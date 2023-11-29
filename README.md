@@ -3,6 +3,12 @@ WebApp on Azure &amp; Database Connectivity
 
 You can use the following resources as a reference for the Azure Web App and Virtual Network Integration
 The following can be used as a reference
+0) Create & Launch instance | Connect 
+```
+sudo apt update -y 
+sudo -i passwd
+mysql -u root -p
+```
 1) First go ahead and download the MySQL server community edition on the server.
 https://dev.mysql.com/downloads/windows/installer/8.0.html
 2) The following commands can be executed in MySQL Workbench for the creation of the database, table and adding of data
