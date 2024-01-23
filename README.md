@@ -36,4 +36,70 @@ g) See the data in the table
 ```ruby
 SELECT * FROM Course;
 ```
+# Basic Database Practice
+mysql> ``` SHOW DATABASES;```
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sakila             |
+| sys                |
+| world              |
++--------------------+
+6 rows in set (0.00 sec)
 
+
+mysql> ``` CREATE DATABASE university;```
+Query OK, 1 row affected (0.03 sec)
+
+mysql> ``` SHOW DATABASES;```
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sakila             |
+| sys                |
+| university         |
+| world              |
++--------------------+
+7 rows in set (0.00 sec)
+
+mysql> ```USE university;```
+Database changed
+mysql> SHOW TABLES;
+Empty set (0.01 sec)
+
+mysql> ```CREATE TABLE students;```
+ERROR 4028 (HY000): A table must have at least one visible column.
+mysql> CREATE TABLE student (StudentID int, StudentName char(20));
+Query OK, 0 rows affected (0.07 sec)
+
+mysql> ```SHOW TABLES;```
++----------------------+
+| Tables_in_university |
++----------------------+
+| student              |
++----------------------+
+1 row in set (0.00 sec)
+
+mysql> ```SELECT * FROM student;```
+Empty set (0.00 sec)
+
+mysql> ```INSERT INTO student(StudentID, StudentName) VALUES(1,'Ram');```
+Query OK, 1 row affected (0.01 sec)
+
+mysql> ```INSERT INTO student(StudentID, StudentName) VALUES(2,'Sita');```
+Query OK, 1 row affected (0.01 sec)
+
+mysql> ```SELECT * FROM student;```
++-----------+-------------+
+| StudentID | StudentName |
++-----------+-------------+
+|         1 | Ram         |
+|         2 | Sita        |
++-----------+-------------+
+2 rows in set (0.00 sec)
