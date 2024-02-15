@@ -38,8 +38,6 @@ g) See the data in the table
 SELECT * FROM Course;
 ```
 
-# MySQL CheatSheet
-
 # MySQL Cheat Sheet
 
 > Help with SQL commands to interact with a MySQL database
