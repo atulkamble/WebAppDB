@@ -5,14 +5,25 @@ You can use the following resources as a reference for the Azure Web App and Vir
 The following can be used as a reference.
 
 0) Create & Launch instance | Connect 
+\\ Update machine
 ```
 sudo apt update -y 
+```
+\\ Set Paaword
+``
 sudo -i passwd
+```
+\\ Install MySQL
+```
 sudo yum install mysql -y
+```
 OR
+```
 sudo yum install -y https://dev.mysql.com/get/mysql80-community-release-el9-5.noarch.rpm
-OR
 sudo apt install mysql-server -y
+```
+// Sign in to MYSQL
+```
 mysql -u root -p
 ```
 1)
