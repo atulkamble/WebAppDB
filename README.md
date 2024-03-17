@@ -8,6 +8,8 @@ The following can be used as a reference.
 ```
 sudo apt update -y 
 sudo -i passwd
+sudo yum install mysql -y
+OR
 sudo apt install mysql-server -y
 mysql -u root -p
 ```
