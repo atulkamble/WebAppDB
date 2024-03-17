@@ -11,9 +11,14 @@ sudo -i passwd
 sudo apt install mysql-server -y
 mysql -u root -p
 ```
-1) First go ahead and download the MySQL server community edition on the server.
+1)
+- Download https://sqlectron.github.io/ and open it.
+- Add SG Inbount of EC2 - MySQL:3306
+- Insert Public ip, username, password, database name
+   
+2) First go ahead and download the MySQL server community edition on the server.
 https://dev.mysql.com/downloads/windows/installer/8.0.html
-2) The following commands can be executed in MySQL Workbench for the creation of the database, table and adding of data
+3) The following commands can be executed in MySQL Workbench for the creation of the database, table and adding of data
 a) Create the database
 ```
 create database appdb;
