@@ -10,6 +10,8 @@ sudo apt update -y
 sudo -i passwd
 sudo yum install mysql -y
 OR
+sudo yum install -y https://dev.mysql.com/get/mysql80-community-release-el9-5.noarch.rpm
+OR
 sudo apt install mysql-server -y
 mysql -u root -p
 ```
