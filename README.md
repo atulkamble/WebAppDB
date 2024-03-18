@@ -9,8 +9,8 @@ The following can be used as a reference.
 ```
 sudo apt update -y 
 ```
-\\ Set Paaword
-``
+\\ Set Password
+```
 sudo -i passwd
 ```
 \\ Install MySQL
